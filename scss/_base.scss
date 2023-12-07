@@ -7,3 +7,13 @@
 #logo {
     width: 200px;
 }
+
+#whatsapp-logo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el logo */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
